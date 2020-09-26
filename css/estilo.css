@@ -1,0 +1,26 @@
+.jumbotron{
+    background-image: url('/img/imagemazul.jpg');
+    background-size: cover;
+}
+
+.mestre{
+    width: 56px;
+    height: 56px;
+}
+
+/*
+.nav-link{
+    padding-top: 5rem ; /* pt-0 até pt-5 */
+    padding-left: ;/* pl-0 até pl-5 */
+    padding-right: ;/* pr-0 até pr-5 */
+    padding-bottom: 5rem;/* pb-0 até pb-5 */
+    background: violet;
+    border: solid;
+
+    margin-top: 5rem; /* mt-0 até mt-5 */
+    margin-left: ; /* ml-0 até ml-5 */
+    margin-right: ;/* mr-0 até mr-5 */
+    margin-bottom: 5rem ;/* mb-0 até mb-5 
+
+
+} */
