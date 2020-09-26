@@ -36,10 +36,7 @@
                 <!-- Inicia uma lista -->
 
                 <li>
-                    <a
-                        href="#"
-                        class="nav-link"
-                    >Home</a>
+                    <a href="#" class="nav-link">Home</a>
                 </li>
 
                 <!-- O # siginifica que não linka para lugar nenhum -->
@@ -112,23 +109,117 @@
     <section class="jumbotron">
         <!-- inicia o título -->
         <form class="input-group">
-            <input type="search" placeholder="Pesquisar">
-            <button class="btn btn-primary">Pesquisar</button>
+            <input class="form-control" type="search"  placeholder="Pesquisar">
+            <button class="btn btn-primary ml-1">Pesquisar</button>
         </form>
     </section>
 
     <!-- Finaliza o título -->
 
-    <section>
+    <section class="container"
         <!-- inicio de Adcionados recentemente -->
-        Adcionados recentemente
+        <h2> Adcionados recentemente</h2>
+        <div class="row">
+        <a href="#" class="col-lg-3 col-sm-6 col-md-6">
+            <figure>
+                <img src="/img/hospital_1.jpg" alt="" class="img-fluid img-thumbnail">
+                <figcaption>
+                    Hospital numero 1
+                </figcaption>
+            </figure>
+        </a>
+
+        <a href="#" class="col-lg-3 col-sm-6 col-md-6"> <!--define o tamano das telas (responsividade)-->
+            <figure>
+                <img src="/img/hospital_2.jpg" alt="" class="img-fluid img-thumbnail">
+                <figcaption>
+                    Hospital numero 2
+                </figcaption>
+            </figure>
+        </a>
+
+        <a href="#" class="col-lg-3 col-sm-6 col-md-6">
+            <figure>
+                <img src="/img/hospital_2.jpg" alt="" class="img-fluid img-thumbnail">
+                <figcaption>
+                    Hospital numero 3
+                </figcaption>
+            </figure>
+        </a>
+
+        <a href="#" class="col-lg-3 col-sm-6 col-md-6">
+            <figure>
+                <img src="/img/hospital_1.jpg" alt="" class="img-fluid img-thumbnail">
+                <figcaption>
+                    Hospital numero 4
+                </figcaption>
+            </figure>
+        </a>
+    </div>
     </section>
 
     <!-- fim de Adcionados recentemente -->
 
-    <section>
+    <section> <!--NESTA SEÇÃO FOI TRABALHADO A CLASS D-FLEX-->
+        
+        <div class="container"> <!--inicio do container do vídeo-->
+        <!-- inicio do nossos vídeos -->
+        <h3>Nosso vídeos</h3>
+        <div class="row d-flex"> <!--inicio da linha-->
+            <figure class="col-lg-3 img-fluid">
+                <iframe src="https://www.youtube.com/embed/FywkdijLj_E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </figure>
+            <div class="col-lg-3">
+                <article class="ml-5 text-justify">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </article>
+            </div>
+
+            <figure class="col-lg-3 img-fluid">
+                <iframe src="https://www.youtube.com/embed/XjFsZj1aHow" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </figure>
+            <div class="col-lg-3">
+                <article class="ml-5 text-justify">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </article>
+            </div>
+
+            
+
+        </div> <!--Fim da linha-->
+
+        </div> <!--fim do container do vídeo-->
+    </section> <!--Fim do nosso vídeos-->
+
+    <section class="avaliado bg-dark">
         <!-- inicio de Melhor Avaliado -->
-        Melhor Avaliado
+        <div class="container"> <!--inicio do container-->
+            <div class="row d-flex"> <!--inicio da linha-->
+                    <div class="col-lg-6 text-lg-center mt-4">
+                        <h1>
+                            Melhor Avaliado
+                        </h1>
+
+                        <article>
+                            Este hospital foi avaliado por mais de mil pessoas.
+                        </article>
+
+                        <button class="btn btn-primary mt-4"> Avaliar</button>
+                    </div>
+                        
+                <div class="col-lg-6">
+                    <figure class="mt-4 mt-4">
+                        <img src="/img/hospital_1.jpg" class="img-fluid img-thumbnail">
+                        <figcaption>
+                            Melhor Hospital
+                        </figcaption>
+                    </figure>
+                </div>
+            </div> <!--fim da linha-->
+
+        </div><!--fim do container-->
     </section>
 
     <!-- fim de Melhor Avaliado -->
