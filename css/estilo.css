@@ -2,11 +2,57 @@
     background-image: url('/img/imagemazul.jpg');
     background-size: cover;
 }
+.navbar-light .navbar-nav .nav-link {
+    color: #007bff;
+}
 
 .mestre{
     width: 56px;
     height: 56px;
 }
+
+.icones a{
+    display: block;
+    width: 36px;
+    height: 36px;
+}
+.icones li{
+    display: inline-block;
+
+}
+.icones a[href='https://github.com']{
+    background-image: url('/img/github.png');
+    background-size: 36px 36px;
+}
+.icones a[href='https://www.google.com/']{
+    background-image: url('/img/google.jpg');
+    background-size: 36px 36px;
+}
+.icones a[href='https://www.linkedin.com/']{
+    background-image: url('/img/linkedin2.png');
+    background-size: 36px 36px;
+}
+.icones a[href='https://www.facebook.com/']{
+    background-image: url('/img/facebook.jpg');
+    background-size: 36px 36px;
+}
+
+.avaliado {
+    color: aqua;
+    text-align: center;
+}
+.card-header{
+    background-image: url('/img/imagemazul.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+.melhorhospital{
+    color: aqua;
+    text-align: center;
+}
+
+
 
 /*
 .nav-link{
